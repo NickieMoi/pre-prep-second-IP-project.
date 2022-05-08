@@ -48,3 +48,36 @@ main{float: right;
   width: 50%;
 font-weight: 70;
 }
+.first{
+    width: 100%;
+display: flex;
+
+}
+#paragraph{
+    margin-top: 20%;
+    margin-right: 15%;
+    margin-right: 25%;
+    letter-spacing: 1px;
+}
+#learn{
+    background-color: black;
+ color: yellow;
+ margin-right: 10%;
+
+}
+.pics{ 
+    width: 100%;
+    display: flex;
+}
+.pics>img{
+    width: 20%;
+padding:1% ;
+}
+.pics2{
+    width: 100%;
+    display: flex;
+}
+.pics2>img{
+    width: 20%;
+    padding:1% ;
+}
