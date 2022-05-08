@@ -1,3 +1,50 @@
 main{float: right;
 }
-section{flex}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    margin-left: 50%;
+    padding-top: 5%;
+}
+.navbar>li{ 
+    margin-right: 5%;
+    padding-top: 5px;
+}
+
+.button1{
+    background-color: yellow;
+    padding: 5px 10px 5px 10px;
+}
+.button2{
+    background-color: black;
+    color: yellow;
+    padding:5px 10px 5px 10px;
+}
+.landing{
+    background-image: url('./Assets/moving\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.into{
+    padding-bottom: 10%;
+    margin-top: 10%;
+}
+.space{
+    margin-left: 3%;
+    color: yellow;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    width: 50%;
+    
+}
+.into{
+    font-family: 'Poppins', sans-serif;
+    margin:4% ;
+    color: white;
+    font-size:  25px;
+  letter-spacing: 3px;
+  width: 50%;
+font-weight: 70;
+}
