@@ -68,16 +68,10 @@ display: flex;
 .pics{ 
     width: 100%;
     display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
-.pics>img{
-    width: 20%;
+.pics> div>img{
+    width: 80%;
 padding:1% ;
-}
-.pics2{
-    width: 100%;
-    display: flex;
-}
-.pics2>img{
-    width: 20%;
-    padding:1% ;
 }
