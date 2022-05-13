@@ -1,3 +1,7 @@
+body{
+    width: 100%;
+}
+
 main{float: right;
 }
 
@@ -66,12 +70,87 @@ display: flex;
 
 }
 .pics{ 
-    width: 100%;
+    display:flex;
+    flex-direction:row;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border-width: 2%;
+}
+.pics2{
+    display:flex;
+    justify-content:right;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border-width: 2%;
+}
+.links{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+}
+.flexing{
     display: flex;
     justify-content: space-around;
-    text-align: center;
 }
-.pics> div>img{
-    width: 80%;
-padding:1% ;
+.yellow{
+    color:yellow ;
 }
+.left{
+    clear: left;
+
+}
+.fill{
+    color: white;
+}
+.black{
+    background-color: black;
+}
+.navigation{ 
+    list-style: none;
+    display: flex;
+    margin-left: 50%;
+    padding-top: 5%;
+   color: white;
+
+
+   
+}
+.navigation>li{
+    margin-right: 5%;
+    padding-top: 5px;
+
+}
+.pull{
+    color: yellow;
+}
+.power{
+    display: flex;
+    color: white;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.head{
+    background-color: black;
+}
+.head{
+background-color: black;
+}
+.spin{color: azure;
+    display: flex;
+    justify-content: left;
+
+}
+.spinny{color: white;
+    justify-content: left;
+
+}
+.spinner{color: white;
+    display: flex;
+
+}
+
