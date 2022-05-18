@@ -69,6 +69,11 @@ display: flex;
  margin-right: 10%;
 
 }
+.picha{
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+}
 .pics{ 
     display:flex;
     flex-direction:row;
@@ -93,7 +98,8 @@ display: flex;
 }
 .flexing{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 .yellow{
     color:yellow ;
